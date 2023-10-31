@@ -1,0 +1,82 @@
+body {
+    font-family: 'Pacifico', cursive;
+    background-image:url("images/itl.cat_flower-images-wallpapers_143449.png");
+}
+body h2{
+    font-weight: bolder;
+    font-size:xx-large;
+    text-decoration: underline;
+    color: darkblue;
+}
+body h3{
+    margin-top: 1px;
+    text-align: center;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+
+    background-image: url("https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExeHB3aWpkdDVhM2hiZnBubWE1a3ozaGI4eWx4cTZneHBwdTdyeGJ3MiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/xT9IgDG2JZDNYsZneE/giphy.gif");
+    color: #fff;
+}
+
+.profile-image img {
+    width: 150px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+#about p{
+    font-family: 'Times New Roman', Times, serif;
+}
+section {
+    padding: 10px;
+}
+    
+.images{
+    width: 800px;
+    height: 450px;
+    display: block;
+    margin-left: auto;
+     margin-right: auto; 
+    width: 90%;
+    
+}
+#projects p  ,h3{
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 2px;
+}
+#projects{
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit , minmax(100px , auto-fit));
+    gap: 20px;
+}
+.projects {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+#contact p{
+    font-family: 'Times New Roman', Times, serif;
+}
+#contact{
+    color: whitesmoke;
+}
